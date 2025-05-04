@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #3b5998;
+    text-decoration: none;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    margin: 15px;
+    list-style-type: none;
+}
+
+.menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+main {
+    display: block;
+    text-align: center;
+}
+
+img{
+    width: 30%;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0px 20px 0px;
+}
+
+main > section {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f1f1f3;
+}
+
+button{
+    background: #3b5998;
+    padding: 20px 60px;
+    border-radius: 50px;
+    color: white;
+    border: 1px #3b5998 solid;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+#quem-somos {
+    padding: 50px;
+}
+
+table {
+    width: 70%;
+    margin: 10px auto;
+}
+
+#planos {
+    padding: 48px 0px;
+}
+
+#planos table, td, th{
+    border-collapse: collapse;
+    border: 1px solid #f1f1f3;
+}
+
+#planos th, td{
+    padding: 5px 40px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer > p {
+    color:gray;
+    font-size: smaller;
+    margin: 0px;
+}

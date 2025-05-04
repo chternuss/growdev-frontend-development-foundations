@@ -1,0 +1,10 @@
+Nesse exercício iremos nos aprofundar em: 
+● Flexbox
+
+Usando os conceitos aprendidos, sua missão é
+reproduzir o seguinte layout e estilos utilizando
+Flexbox na disposição dos conteúdos da
+página;
+
+Além disso, você deve utilizar CSS externo.
+Clique na imagem para visualização completa do layout.

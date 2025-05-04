@@ -1,0 +1,12 @@
+Exercício
+
+TODOS OS DIREITOS RESERVADOS - GROWDEV
+
+Nesse exercício iremos nos aprofundar em
+estilização CSS.
+Usando os conceitos aprendidos, sua
+missão é reproduzir o seguinte layout e
+estilos.
+Além disso, você deve utilizar CSS externo.
+Clique na imagem para visualização
+completa do layout.

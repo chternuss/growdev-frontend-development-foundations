@@ -1,0 +1,15 @@
+Nesse exercício iremos fixar os conceitos essenciais do HTML
+
+para isso você deverá seguir os seguintes passos :
+
+1. Crie um arquivo chamado index.html ;
+2. Crie um h1 cujo o título seja : Introdução ao HTML ;
+3. Crie um h2, com um título : O que é HTML ? ;
+4. Após o H2, crie um parágrafo explicando o que é e para
+que serve o HTML ;
+5. Crie um H3 cujo o título seja : Principais Tags de
+Formatação
+6. Para cada uma das tags a seguir, crie um parágrafo
+explicando para que serve aquela tag e um texto de
+exemplo daquela tag :
+b | strong | i | em | mark | small | del | sub | sup
