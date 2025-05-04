@@ -1,0 +1,6 @@
+Nesse exercício iremos nos aprofundar em alguns conceitos de
+imagens e links.
+Usando os conceitos aprendidos, 
+sua missão é reproduzir o seguinte layout com as suas informações .
+
+Além disso, todos os links devem redirecionar para os locais corretos.

@@ -1,0 +1,15 @@
+Nesse exercício iremos nos aprofundar em
+alguns conceitos de html semântico, tabelas
+e atributos
+
+Sua missão é reproduzir o seguinte layout
+seguindo os critérios :
+
+Estrutura básica de página com cabeçalho,
+navegação, conteúdo principal e rodapé.
+Uma tabela que exibe uma lista de produtos com
+suas quantidades e preços.
+
+O conteúdo principal deve ser dividido em seções
+e um aside deve ser incluído para mostrar ofertas
+adicionais.

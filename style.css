@@ -1,0 +1,298 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px;
+}
+
+body {
+    background-color: #FFFDF2;
+}
+
+/* Esconde o checkbox */
+#menu-toggle {
+    display: none;
+  }
+  
+/* Estilo do botão hambúrguer */
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px;
+}
+  
+.menu-icon .bar {
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+  
+/* Menu escondido por padrão */
+.menu {
+    display: none;
+}
+  
+  /* Quando o checkbox está marcado, mostra o menu */
+#menu-toggle:checked + .menu-icon + .menu {
+    display: block;
+  }
+  
+  /* Estilo básico do menu */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.menu li {
+    padding: 10px;
+}
+  
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    padding: 35px 15px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+#home h1 {
+    margin: 45px 0px 15px;
+    text-align: center;
+}
+
+#home p {
+    text-align: center;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
+
+#home p:last-child {
+    margin-bottom: 45px;
+}
+
+h2{
+    text-align: center;
+    margin: 45px 0px 15px;
+    font-size: 28px;
+}
+
+#sobre-mim p{
+    text-align: justify;
+    padding: 0px 10px;
+    margin-bottom: 45px;
+}
+
+#sobre-mim img {
+    border-radius: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#growdev{
+    text-align: center;
+}
+
+#growdev p{
+    text-align: justify;
+    padding: 0px 10px;
+    margin-bottom: 35px;
+}
+
+.base-button {
+    padding: 15px 35px;
+    margin-bottom: 45px;
+    background-color: #000000;
+    border-radius: 50px;
+    border: 1px solid #000000;
+}
+
+.base-button > a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#atividades {
+    padding: 10px;
+}
+
+#atividades p{
+    text-align: justify;
+}
+
+.exercicios {
+    padding: 25px 0;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px 0px;    
+}
+
+.exercicios p{
+    padding: 0 10px;
+    text-align: justify;    
+}
+
+.exercicios img{
+    width: 95%;
+    margin: 10px 0;    
+}
+
+.exercicios ol{
+    padding: 0 40px;   
+}
+
+.exercicios ul{
+    padding: 0 40px;   
+}
+
+.exercicios ul > li{
+    padding: 0 10px 0 0;
+    text-align: left;
+    font-size: 17px;    
+}
+
+.exercicios ol > li{
+    padding: 0 10px 0 0;
+    text-align: left;
+    font-size: 17px;    
+}
+
+.exercicios ol.first-list > li:last-child{
+    list-style-type: none;    
+}
+
+.exercicios .base-button{
+    margin: 15px 0px 0px;
+    padding: 10px 20px;    
+}
+
+.exercicios .base-button > a{
+    text-transform: none;
+    font-weight: normal;
+    font-size: 16px;   
+}
+
+.exercicio-mobile {
+    width: 40% !important;
+}
+
+.child-list {
+    list-style-type: lower-latin;
+    padding: 0px 27px !important;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+}
+
+footer > p{
+    color: #838282;
+}
+
+@media screen and (min-width: 426px) and (max-width: 991px) {
+    #sobre-mim {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #sobre-mim img{
+        width: 50%;
+        margin: 0 auto 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu > ul{
+        display: flex;
+        gap: 25px;
+    }
+}
+
+@media screen and (min-width: 992px) {    
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 100px;
+    }
+
+    #home {
+        flex-direction: column;
+    }
+
+    #sobre-mim{
+        gap: 30px
+    }
+
+    #sobre-mim .titulo{
+        width: 600px;
+    }
+
+    #sobre-mim img{
+        width: 30%;
+    }
+
+    #growdev {
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px;
+    }
+
+    #growdev {
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px;
+    }
+
+    #atividades {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #atividades .atividade-conteudo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    #atividades .exercicios {
+        width: 450px;
+    }
+
+}
